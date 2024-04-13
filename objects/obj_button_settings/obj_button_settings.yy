@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite24",
-    "path":"sprites/Sprite24/Sprite24.yy",
+    "name":"spr_menu_button",
+    "path":"sprites/spr_menu_button/spr_menu_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
