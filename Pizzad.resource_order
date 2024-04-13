@@ -46,5 +46,6 @@
     {"name":"spr_top_pineapple","order":5,"path":"sprites/spr_top_pineapple/spr_top_pineapple.yy",},
     {"name":"spr_top_tomatoes","order":11,"path":"sprites/spr_top_tomatoes/spr_top_tomatoes.yy",},
     {"name":"spr_topping_container","order":2,"path":"sprites/spr_topping_container/spr_topping_container.yy",},
+    {"name":"spr_cheese_box","order":3,"path":"sprites/spr_cheese_box/spr_cheese_box.yy",},
   ],
 }

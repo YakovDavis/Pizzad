@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_cheese_plate",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_cheese_plate",
   "overriddenProperties":[],
@@ -23,11 +25,20 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"","%Name":"E_CURSOR_STATE.CHEESE","filters":[],"listItems":[
+        "MOZZARELLA",
+        "CHEDDAR",
+        "BLUE",
+      ],"multiselect":false,"name":"E_CURSOR_STATE.CHEESE","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"CHEDDAR","varType":6,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_cheese_box",
+    "path":"sprites/spr_cheese_box/spr_cheese_box.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

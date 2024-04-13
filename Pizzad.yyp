@@ -69,6 +69,7 @@
     {"id":{"name":"spr_top_salami","path":"sprites/spr_top_salami/spr_top_salami.yy",},},
     {"id":{"name":"spr_top_tomatoes","path":"sprites/spr_top_tomatoes/spr_top_tomatoes.yy",},},
     {"id":{"name":"spr_topping_container","path":"sprites/spr_topping_container/spr_topping_container.yy",},},
+    {"id":{"name":"spr_cheese_box","path":"sprites/spr_cheese_box/spr_cheese_box.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
