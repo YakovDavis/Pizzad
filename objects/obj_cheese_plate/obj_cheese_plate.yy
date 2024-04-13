@@ -11,7 +11,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_abs_clickable",
+    "path":"objects/obj_abs_clickable/obj_abs_clickable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,11 +34,11 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"CHEESE","filters":[],"listItems":[
+    {"$GMObjectProperty":"","%Name":"cheese_type","filters":[],"listItems":[
         "E_CHEESE_STATE.MOZZARELLA",
         "E_CHEESE_STATE.CHEDDAR",
         "E_CHEESE_STATE.BLUE",
-      ],"multiselect":false,"name":"CHEESE","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"E_CHEESE_STATE.CHEDDAR","varType":6,},
+      ],"multiselect":false,"name":"cheese_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"E_CHEESE_STATE.CHEDDAR","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
