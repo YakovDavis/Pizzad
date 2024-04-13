@@ -75,13 +75,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-<<<<<<< Updated upstream
-    "xorigin":32,
-    "yorigin":32,
-=======
     "xorigin":128,
     "yorigin":128,
->>>>>>> Stashed changes
   },
   "swatchColours":null,
   "swfPrecision":0.5,
