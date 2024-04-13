@@ -20,5 +20,5 @@ current_trail =
 	y1 : 0,
 	x2 : 0,
 	y2 : 0,
-	sprite_offset : 0
+	strip_offset : 0
 };
