@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_ketchup",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_ketchup",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ketchup",
+    "path":"sprites/spr_ketchup/spr_ketchup.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

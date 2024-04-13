@@ -1,6 +1,6 @@
 /// @description Pre-Init
 
-enum CHEESE_STATE
+enum E_CHEESE_STATE
 {
     NONE,
 	MOZZARELLA,
@@ -8,7 +8,7 @@ enum CHEESE_STATE
 	BLUE
 }
 
-enum TOPPING_STATE
+enum E_TOPPING_STATE
 {
     NONE,
 	SALAMI,
@@ -24,3 +24,9 @@ enum TOPPING_STATE
 	MEATBALL,
 	TOMATOES
 }
+
+global.master_volume = 1.0;
+global.sfx_volume = 1.0;
+global.music_volume = 1.0;
+
+global.is_paused = false;
