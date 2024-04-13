@@ -25,6 +25,8 @@ enum E_TOPPING_STATE
 	TOMATOES
 }
 
+#macro MAX_TOPPINGS_IN_HAND 5
+
 global.master_volume = 1.0;
 global.sfx_volume = 1.0;
 global.music_volume = 1.0;

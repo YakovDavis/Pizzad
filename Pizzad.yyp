@@ -46,6 +46,7 @@
     {"id":{"name":"obj_pizza_icon","path":"objects/obj_pizza_icon/obj_pizza_icon.yy",},},
     {"id":{"name":"obj_pizza","path":"objects/obj_pizza/obj_pizza.yy",},},
     {"id":{"name":"obj_topping_spawner","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},},
+    {"id":{"name":"obj_abs_clickable","path":"objects/obj_abs_clickable/obj_abs_clickable.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"sh_blur","path":"shaders/sh_blur/sh_blur.yy",},},
     {"id":{"name":"spr_cheese_blue","path":"sprites/spr_cheese_blue/spr_cheese_blue.yy",},},

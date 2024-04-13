@@ -29,6 +29,7 @@
     {"name":"obj_pizza_icon","order":7,"path":"objects/obj_pizza_icon/obj_pizza_icon.yy",},
     {"name":"obj_pizza","order":2,"path":"objects/obj_pizza/obj_pizza.yy",},
     {"name":"obj_topping_spawner","order":1,"path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},
+    {"name":"obj_abs_clickable","order":9,"path":"objects/obj_abs_clickable/obj_abs_clickable.yy",},
     {"name":"spr_cheese_blue","order":2,"path":"sprites/spr_cheese_blue/spr_cheese_blue.yy",},
     {"name":"spr_cheese_cheddar","order":1,"path":"sprites/spr_cheese_cheddar/spr_cheese_cheddar.yy",},
     {"name":"spr_cursor_ketchup","order":1,"path":"sprites/spr_cursor_ketchup/spr_cursor_ketchup.yy",},

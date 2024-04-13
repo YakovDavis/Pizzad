@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ketchup",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_abs_clickable",
+  "eventList":[],
   "managed":true,
-  "name":"obj_ketchup",
+  "name":"obj_abs_clickable",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_abs_clickable",
-    "path":"objects/obj_abs_clickable/obj_abs_clickable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ketchup",
-    "path":"sprites/spr_ketchup/spr_ketchup.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
