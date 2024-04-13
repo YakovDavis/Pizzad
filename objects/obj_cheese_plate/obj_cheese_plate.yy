@@ -23,14 +23,19 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":32.0,},
+    {"x":0.0,"y":32.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"E_CURSOR_STATE.CHEESE","filters":[],"listItems":[
-        "MOZZARELLA",
-        "CHEDDAR",
-        "BLUE",
-      ],"multiselect":false,"name":"E_CURSOR_STATE.CHEESE","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"CHEDDAR","varType":6,},
+    {"$GMObjectProperty":"","%Name":"CHEESE","filters":[],"listItems":[
+        "E_CHEESE_STATE.MOZZARELLA",
+        "E_CHEESE_STATE.CHEDDAR",
+        "E_CHEESE_STATE.BLUE",
+      ],"multiselect":false,"name":"CHEESE","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"E_CHEESE_STATE.CHEDDAR","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
