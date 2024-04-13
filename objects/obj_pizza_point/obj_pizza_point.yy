@@ -1,11 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pizza",
+  "%Name":"obj_pizza_point",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pizza",
+  "name":"obj_pizza_point",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pizza_dough",
-    "path":"sprites/spr_pizza_dough/spr_pizza_dough.yy",
+    "name":"spr_pizza_point_idle",
+    "path":"sprites/spr_pizza_point_idle/spr_pizza_point_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
