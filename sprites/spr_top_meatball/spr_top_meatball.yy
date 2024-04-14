@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_top_meatball",
   "bboxMode":0,
-  "bbox_bottom":63,
-  "bbox_left":0,
-  "bbox_right":63,
+  "bbox_bottom":72,
+  "bbox_left":12,
+  "bbox_right":62,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c9934923-0e9a-417b-bb95-d4afe034ed17","name":"c9934923-0e9a-417b-bb95-d4afe034ed17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"459cc454-b86b-4203-b1a3-7253f3597300","name":"459cc454-b86b-4203-b1a3-7253f3597300","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":74,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1feb6d56-20b6-4f70-9cf9-ffb794dfedeb","blendMode":0,"displayName":"default","isLocked":false,"name":"1feb6d56-20b6-4f70-9cf9-ffb794dfedeb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4800ed1b-90b0-47ab-8271-fcec4d8a347a","blendMode":0,"displayName":"default","isLocked":false,"name":"4800ed1b-90b0-47ab-8271-fcec4d8a347a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_top_meatball",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9934923-0e9a-417b-bb95-d4afe034ed17","path":"sprites/spr_top_meatball/spr_top_meatball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"68456581-dc9c-4e6e-983a-1b07f59dbdb0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"459cc454-b86b-4203-b1a3-7253f3597300","path":"sprites/spr_top_meatball/spr_top_meatball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"65a43700-27b3-4d7c-8fb4-8744cc43988d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":74,
 }
