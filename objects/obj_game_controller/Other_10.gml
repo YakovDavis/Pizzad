@@ -14,9 +14,36 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 	_success = true;
 	
 	// Ketchup check
+	var _indices = get_pattern_pizza_indices(_order.ketchup_pattern);
+	if (array_length(obj_pizza.ketchup_trails) != array_length(_indices))
+	{
+		_success = false;
+		continue;
+	}
 	for (var _j = 0; _j < array_length(obj_pizza.ketchup_trails); _j++)
 	{
+		var _strip_found = false;
 		
+		for (var _k = 0; _k < array_length(_indices); _k++)
+		{
+			var _strip = _indices[_k];
+			if (obj_pizza.ketchup_trails[_j].point1 == _strip.p1 && obj_pizza.ketchup_trails[_j].point2 == _strip.p2)
+			{
+				_strip_found = true;
+				break;
+			}
+		}
+		
+		if (!_strip_found)
+		{
+			_success = false;
+			break;
+		}
+	}
+	
+	if (!_success)
+	{
+		continue;
 	}
 	
 	// Toppings check

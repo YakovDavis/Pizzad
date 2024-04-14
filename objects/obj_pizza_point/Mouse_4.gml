@@ -22,6 +22,12 @@ if (obj_cursor.cursor_state == E_CURSOR_STATE.TOPPING)
 			obj_cursor.cursor_topping_state = E_TOPPING_STATE.NONE;
 		}
 	}
+} else if (obj_cursor.cursor_state == E_CURSOR_STATE.MOVE)
+{
+	if (topping != E_TOPPING_STATE.NONE)
+	{
+		topping = E_TOPPING_STATE.NONE
+	}
 }
 
 if (obj_pizza.is_current_trail_active)
