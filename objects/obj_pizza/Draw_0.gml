@@ -4,10 +4,10 @@ draw_self();
 
 for (var _i = 0; _i < array_length(ketchup_trails); _i++)
 {
-	var _x1 = pizza_points[ketchup_trails[_i].point1].x;
-	var _y1 = pizza_points[ketchup_trails[_i].point1].y;
-	var _x2 = pizza_points[ketchup_trails[_i].point2].x;
-	var _y2 = pizza_points[ketchup_trails[_i].point2].y;
+	var _x1 = pizza_points[ketchup_trails[_i].point1].x - initial_x + x;
+	var _y1 = pizza_points[ketchup_trails[_i].point1].y - initial_y + y;
+	var _x2 = pizza_points[ketchup_trails[_i].point2].x - initial_x + x;
+	var _y2 = pizza_points[ketchup_trails[_i].point2].y - initial_y + y;
 	var _rot = point_direction(_x1, _y1, _x2, _y2) - 90;
 	var _height = point_distance(_x1, _y1, _x2, _y2);
 	draw_sprite_general(spr_ketchup_trail, 0, 0, 0, sprite_get_width(spr_ketchup_trail), _height, _x1 -

@@ -29,4 +29,13 @@ current_trail =
 initial_x = x;
 initial_y = y;
 
+with (obj_pizza_point)
+{
+	pizza_x = x;
+	pizza_y = y;
+	initial_pizza_x = x;
+	initial_pizza_y = y;
+}
+
 is_being_dragged = false;
+
