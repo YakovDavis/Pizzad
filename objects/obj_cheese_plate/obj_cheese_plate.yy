@@ -48,5 +48,5 @@
     "path":"sprites/spr_cheese_box/spr_cheese_box.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
