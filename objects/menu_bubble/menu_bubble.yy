@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_settings",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"menu_bubble",
+  "eventList":[],
   "managed":true,
-  "name":"obj_button_settings",
+  "name":"menu_bubble",
   "overriddenProperties":[],
   "parent":{
     "name":"menu",
     "path":"folders/Objects/menu.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_parent",
-    "path":"objects/obj_button_parent/obj_button_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_settings",
-    "path":"sprites/spr_button_settings/spr_button_settings.yy",
+    "name":"spr_menu_bubble",
+    "path":"sprites/spr_menu_bubble/spr_menu_bubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,

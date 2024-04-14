@@ -6,8 +6,8 @@
   "name":"menu_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Sprites/UI.yy",
+    "name":"menu",
+    "path":"folders/Sprites/UI/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

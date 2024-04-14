@@ -6,9 +6,7 @@
   ],
   "managed":true,
   "name":"obj_button_exit",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PLAY",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"menu",
     "path":"folders/Objects/menu.yy",
@@ -35,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_menu_button",
-    "path":"sprites/spr_menu_button/spr_menu_button.yy",
+    "name":"spr_button_exit",
+    "path":"sprites/spr_button_exit/spr_button_exit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
