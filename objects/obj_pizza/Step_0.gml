@@ -7,8 +7,8 @@ if (is_being_dragged)
 	
 	with (obj_pizza_point)
 	{
-		pizza_x = x;
-		pizza_y = y;
+		pizza_x = obj_pizza.x;
+		pizza_y = obj_pizza.y;
 	}
 }
 

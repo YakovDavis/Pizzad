@@ -31,10 +31,10 @@ initial_y = y;
 
 with (obj_pizza_point)
 {
-	pizza_x = x;
-	pizza_y = y;
-	initial_pizza_x = x;
-	initial_pizza_y = y;
+	pizza_x = obj_pizza.x;
+	pizza_y = obj_pizza.y;
+	initial_pizza_x = obj_pizza.x;
+	initial_pizza_y = obj_pizza.y;
 }
 
 is_being_dragged = false;

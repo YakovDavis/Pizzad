@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_order_ops",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_order_ops",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
