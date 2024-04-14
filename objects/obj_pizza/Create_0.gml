@@ -25,3 +25,8 @@ current_trail =
 	y2 : 0,
 	strip_offset : 0
 };
+
+initial_x = x;
+initial_y = y;
+
+is_being_dragged = false;
