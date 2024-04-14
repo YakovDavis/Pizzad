@@ -55,6 +55,7 @@
     {"name":"spr_cheese_blue","order":2,"path":"sprites/spr_cheese_blue/spr_cheese_blue.yy",},
     {"name":"spr_cheese_box","order":3,"path":"sprites/spr_cheese_box/spr_cheese_box.yy",},
     {"name":"spr_cheese_cheddar","order":1,"path":"sprites/spr_cheese_cheddar/spr_cheese_cheddar.yy",},
+    {"name":"spr_cheese_plate","order":1,"path":"sprites/spr_cheese_plate/spr_cheese_plate.yy",},
     {"name":"spr_cursor_ketchup","order":1,"path":"sprites/spr_cursor_ketchup/spr_cursor_ketchup.yy",},
     {"name":"spr_menu_button","order":1,"path":"sprites/spr_menu_button/spr_menu_button.yy",},
     {"name":"spr_pizza_dough","order":1,"path":"sprites/spr_pizza_dough/spr_pizza_dough.yy",},
@@ -71,6 +72,6 @@
     {"name":"spr_top_pineapple","order":5,"path":"sprites/spr_top_pineapple/spr_top_pineapple.yy",},
     {"name":"spr_top_tomatoes","order":11,"path":"sprites/spr_top_tomatoes/spr_top_tomatoes.yy",},
     {"name":"spr_topping_container","order":2,"path":"sprites/spr_topping_container/spr_topping_container.yy",},
-    {"name":"spr_cheese_plate","order":1,"path":"sprites/spr_cheese_plate/spr_cheese_plate.yy",},
+    {"name":"spr_topping_box","order":2,"path":"sprites/spr_topping_box/spr_topping_box.yy",},
   ],
 }
