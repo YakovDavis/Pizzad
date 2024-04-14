@@ -71,7 +71,17 @@ function get_pattern_pizza_points(_pattern)
 		case (E_KETCHUP_PATTERN.PENTAGRAM):
 			return [0, 2, 4, 6, 8];
 		case (E_KETCHUP_PATTERN.INV_PENTAGRAM):
-			return [1, 3, 5, 7, 9];
+			return [1, 3, 5, 7, 9];	
+		case (E_KETCHUP_PATTERN.HEXAGRAM):
+			return [2,5,8,3,0,7,2];	//HEXAGRAM 2583072
+		case (E_KETCHUP_PATTERN.GEBO):
+			return [1,6,4,9];	//GEBO  16 49
+		case (E_KETCHUP_PATTERN.DAGAZ):
+			return [1,6,9,4,1];	//DAGAZ 16941
+		case (E_KETCHUP_PATTERN.TWO_SQUARES):
+			return [1,2,3,9,8,7,1];//TWO_SQUARES 1239871
+		case (E_KETCHUP_PATTERN.JUSTICE):
+			return [2,1,6,5,4,9,8];	//JUSTICE 2165498
 	}
 }
 
@@ -184,5 +194,161 @@ function get_pattern_pizza_indices(_pattern)
 			p2 : 5,
 		};
 		return [s1, s2, s3, s4, s5];
+	}
+	
+		//HEXAGRAM					
+	if (_pattern == E_KETCHUP_PATTERN.INV_PENTAGRAM) //HEXAGRAM 2583072
+	{
+		s1 =
+		{
+			p1 : 2,
+			p2 : 5,
+		};
+		s2 =
+		{
+			p1 : 5,
+			p2 : 8,
+		};
+		s3 =
+		{
+			p1 : 8,
+			p2 : 3,
+		};
+		s4 =
+		{
+			p1 : 3,
+			p2 : 0,
+		};
+		s5 =
+		{
+			p1 : 0,
+			p2 : 7,
+		};
+		s6 =
+		{
+			p1 : 7,
+			p2 : 2,
+		};
+		return [s1, s2, s3, s4, s5, s6];
+	}
+			
+
+		//GEBO 16 49
+	if (_pattern == E_KETCHUP_PATTERN.GEBO)
+	{
+		s1 =
+		{
+			p1 : 1,
+			p2 : 6,
+		};
+		s2 =
+		{
+			p1 : 4,
+			p2 : 9,
+		};
+		
+		return [s1, s2];
+	}		
+			
+		
+		//DAGAZ 16941
+	if (_pattern == E_KETCHUP_PATTERN.DAGAZ)
+	{
+		s1 =
+		{
+			p1 : 1,
+			p2 : 6,
+		};
+		s2 =
+		{
+			p1 : 6,
+			p2 : 9,
+		};
+		s3 =
+		{
+			p1 : 9,
+			p2 : 4,
+		};
+		s4 =
+		{
+			p1 : 4,
+			p2 : 1,
+		};
+		
+		return [s1, s2, s3, s4];
+	}
+	
+	  //TWO_SQUARES 1239871
+	if (_pattern == E_KETCHUP_PATTERN.TWO_SQUARES)
+	{
+		s1 =
+		{
+			p1 : 1,
+			p2 : 2,
+		};
+		s2 =
+		{
+			p1 : 2,
+			p2 : 3,
+		};
+		s3 =
+		{
+			p1 : 3,
+			p2 : 9,
+		};
+		s4 =
+		{
+			p1 : 9,
+			p2 : 8,
+		};
+		s5 =
+		{
+			p1 : 8,
+			p2 : 7,
+		};
+		s6 =
+		{
+			p1 : 7,
+			p2 : 1,
+		};
+		
+		return [s1, s2, s3, s4, s5, s6];
+	}
+		
+		//JUSTICE 2165498
+	if (_pattern == E_KETCHUP_PATTERN.JUSTICE)
+	{
+		s1 =
+		{
+			p1 : 2,
+			p2 : 1,
+		};
+		s2 =
+		{
+			p1 : 1,
+			p2 : 6,
+		};
+		s3 =
+		{
+			p1 : 6,
+			p2 : 5,
+		};
+		s4 =
+		{
+			p1 : 5,
+			p2 : 4,
+		};
+		s5 =
+		{
+			p1 : 4,
+			p2 : 9,
+		};
+		s6 =
+		{
+			p1 : 9,
+			p2 : 8,
+		};
+		
+		return [s1, s2, s3, s4, s5, s6];
 	}
 }
