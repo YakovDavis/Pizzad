@@ -23,6 +23,7 @@
     {"name":"background","order":2,"path":"folders/Sprites/UI/background.yy",},
     {"name":"details","order":6,"path":"folders/Sprites/UI/background/details.yy",},
     {"name":"entrance","order":5,"path":"folders/Sprites/UI/background/entrance.yy",},
+    {"name":"Oven","order":8,"path":"folders/Sprites/UI/background/Oven.yy",},
     {"name":"light","order":7,"path":"folders/Sprites/UI/background/light.yy",},
     {"name":"workspace","order":4,"path":"folders/Sprites/UI/background/workspace.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
