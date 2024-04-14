@@ -1,9 +1,27 @@
-/// @function get_random_ingredients(_num);
+/// @function get_random_ingredient_types(_num);
 /// @param {Integer} _num Nuber of ingedients
 /// @returns {Array}
 
-function get_random_ingredients(_num)
+function get_random_ingredient_types(_num)
 {
+	result = [];
+	
+	if (_num >= E_TOPPING_STATE.MAX - 1)
+	{
+		show_error("Incorrect number of ingredients requested", false);
+		return result;
+	}
+	
+	var _used = []
+	for (var _i = 0; _i < _num; _i++)
+	{
+		var _chosen_index = -1;
+		do
+		{
+			_chosen_index = random_range(E_TOPPING_STATE.NONE + 1, E_TOPPING_STATE.MAX - 1)
+		} until (array_get_index(_used, _chosen_index) < 0)
+		array_push(_used, _chosen_index);
+	}
 }
 
 /// @function generate_order(_pool, _estimate);
