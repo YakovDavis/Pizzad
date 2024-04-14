@@ -43,7 +43,7 @@ enum E_KETCHUP_PATTERN
 
 #macro MAX_TOPPINGS_IN_HAND 5
 
-global.master_volume = 1.0;
+//global.master_volume = 1.0;
 global.sfx_volume = 1.0;
 global.music_volume = 1.0;
 

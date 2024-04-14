@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_2C11CFA9","path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"inst_760D69BD_1","path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"inst_1716B35_1","path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"inst_6DCCDFF2_1","path":"rooms/rm_settings/rm_settings.yy",},
@@ -36,6 +37,7 @@
     {"name":"inst_473E7D00","path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"inst_5C89C366","path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"inst_4940AAA","path":"rooms/rm_settings/rm_settings.yy",},
+    {"name":"inst_1EF34F4A","path":"rooms/rm_settings/rm_settings.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -45,6 +47,7 @@
       ],"layers":[],"name":"Cursor","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Ketchup","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Ketchup","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Interactables","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"","%Name":"inst_2C11CFA9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C11CFA9","objectId":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_6795682D_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6795682D_2","objectId":{"name":"obj_pizza","path":"objects/obj_pizza/obj_pizza.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":736.0,},
         {"$GMRInstance":"","%Name":"inst_407B2ADD_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_407B2ADD_2","objectId":{"name":"obj_topping_spawner","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_topping_spawner","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},"propertyId":{"name":"topping_type","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"E_TOPPING_STATE.SALAMI",},
@@ -102,6 +105,7 @@
         {"$GMRInstance":"","%Name":"inst_4940AAA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4940AAA","objectId":{"name":"obj_topping_spawner","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_topping_spawner","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},"propertyId":{"name":"topping_type","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"E_TOPPING_STATE.PICKLES",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.7,"x":1760.0,"y":928.0,},
+        {"$GMRInstance":"","%Name":"inst_1EF34F4A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EF34F4A","objectId":{"name":"obj_music_game","path":"objects/obj_music_game/obj_music_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Interactables","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Oven","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_2DE6C9B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DE6C9B9","objectId":{"name":"obj_oven","path":"objects/obj_oven/obj_oven.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":0.0,},
