@@ -20,6 +20,10 @@ if (obj_cursor.cursor_state == E_CURSOR_STATE.TOPPING)
 		{
 			obj_cursor.cursor_state = E_CURSOR_STATE.MOVE;
 			obj_cursor.cursor_topping_state = E_TOPPING_STATE.NONE;
+			with (obj_pizza_point)
+			{
+				should_ring_be_visible = false;
+			}
 		}
 	}
 } else if (obj_cursor.cursor_state == E_CURSOR_STATE.MOVE)

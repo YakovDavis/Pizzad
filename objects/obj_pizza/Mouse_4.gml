@@ -13,9 +13,4 @@ if (position_meeting(mouse_x, mouse_y, obj_pizza_point))
 if (obj_cursor.cursor_state == E_CURSOR_STATE.MOVE)
 {
 	is_being_dragged = true;
-	
-	with (obj_pizza_point)
-	{
-		should_ring_be_visible = false;
-	}
 }

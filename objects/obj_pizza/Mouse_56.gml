@@ -8,7 +8,6 @@ if (is_being_dragged)
 	
 	with (obj_pizza_point)
 	{
-		should_ring_be_visible = true;
 		pizza_x = initial_pizza_x;
 		pizza_y = initial_pizza_y;
 	}

@@ -2,7 +2,7 @@
 
 sprite_color = c_white;
 
-should_ring_be_visible = true;
+should_ring_be_visible = false;
 
 topping = E_TOPPING_STATE.NONE;
 

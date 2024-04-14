@@ -37,46 +37,5 @@ if (cursor_state == E_CURSOR_STATE.CHEESE)
 }
 else if (cursor_state == E_CURSOR_STATE.TOPPING)
 {
-	switch(cursor_topping_state)
-	{
-		case (E_TOPPING_STATE.ANCHOVY):
-			sprite_index = spr_top_anchovy;
-			return;
-		case (E_TOPPING_STATE.BELL_PEPPER):
-			sprite_index = spr_top_bell_pepper;
-			return;
-		case (E_TOPPING_STATE.BLACK_OLIVE):
-			sprite_index = spr_top_black_olive;
-			return;
-		case (E_TOPPING_STATE.CHICKEN):
-			sprite_index = spr_top_chicken;
-			return;
-		case (E_TOPPING_STATE.GREEN_OLIVE):
-			sprite_index = spr_top_green_olive;
-			return;
-		case (E_TOPPING_STATE.JALAPENO):
-			sprite_index = spr_top_jalapeno;
-			return;
-		case (E_TOPPING_STATE.MEATBALL):
-			sprite_index = spr_top_meatball;
-			return;
-		case (E_TOPPING_STATE.MUSHROOM):
-			sprite_index = spr_top_mushroom;
-			return;
-		case (E_TOPPING_STATE.PICKLES):
-			sprite_index = spr_top_pickles;
-			return;
-		case (E_TOPPING_STATE.PINEAPPLE):
-			sprite_index = spr_top_pineapple;
-			return;
-		case (E_TOPPING_STATE.SALAMI):
-			sprite_index = spr_top_salami;
-			return;
-		case (E_TOPPING_STATE.TOMATOES):
-			sprite_index = spr_top_tomatoes;
-			return;
-		default:
-			show_error("Invalid or empty topping state", false);
-			return;
-	}
+	sprite_index = get_topping_sprite(cursor_topping_state)
 }
