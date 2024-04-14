@@ -23,6 +23,7 @@
     {"name":"background","order":2,"path":"folders/Sprites/UI/background.yy",},
     {"name":"details","order":6,"path":"folders/Sprites/UI/background/details.yy",},
     {"name":"entrance","order":5,"path":"folders/Sprites/UI/background/entrance.yy",},
+    {"name":"oven","order":8,"path":"folders/Sprites/UI/background/oven.yy",},
     {"name":"light","order":7,"path":"folders/Sprites/UI/background/light.yy",},
     {"name":"Oven","order":8,"path":"folders/Sprites/UI/background/Oven.yy",},
     {"name":"workspace","order":4,"path":"folders/Sprites/UI/background/workspace.yy",},
@@ -47,6 +48,7 @@
     {"name":"rm_settings","order":2,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"spr_bkg_door_2","order":2,"path":"sprites/spr_bkg_door_2/spr_bkg_door_2.yy",},
     {"name":"spr_bkg_door","order":1,"path":"sprites/spr_bkg_door/spr_bkg_door.yy",},
+    {"name":"spr_bkg_neon_light","order":1,"path":"sprites/spr_bkg_neon_light/spr_bkg_neon_light.yy",},
     {"name":"spr_bkg_neon_pizza","order":3,"path":"sprites/spr_bkg_neon_pizza/spr_bkg_neon_pizza.yy",},
     {"name":"spr_bkg_posters","order":2,"path":"sprites/spr_bkg_posters/spr_bkg_posters.yy",},
     {"name":"spr_bkg_tips","order":1,"path":"sprites/spr_bkg_tips/spr_bkg_tips.yy",},
@@ -69,6 +71,6 @@
     {"name":"spr_top_pineapple","order":5,"path":"sprites/spr_top_pineapple/spr_top_pineapple.yy",},
     {"name":"spr_top_tomatoes","order":11,"path":"sprites/spr_top_tomatoes/spr_top_tomatoes.yy",},
     {"name":"spr_topping_container","order":2,"path":"sprites/spr_topping_container/spr_topping_container.yy",},
-    {"name":"spr_bkg_neon_light","order":1,"path":"sprites/spr_bkg_neon_light/spr_bkg_neon_light.yy",},
+    {"name":"spr_cheese_plate","order":1,"path":"sprites/spr_cheese_plate/spr_cheese_plate.yy",},
   ],
 }

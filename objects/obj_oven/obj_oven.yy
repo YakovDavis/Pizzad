@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bkg_oven",
+    "path":"sprites/spr_bkg_oven/spr_bkg_oven.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
