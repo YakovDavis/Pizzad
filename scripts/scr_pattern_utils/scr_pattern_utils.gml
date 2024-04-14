@@ -58,9 +58,28 @@ function get_pattern_pizza_point_num(_pattern)
 
 /// @function get_pattern_pizza_points(_pattern);
 /// @param {Any} _pattern Index from balance sheet
-/// @returns {Array<Struct>}
+/// @returns {Array<Real>}
 
 function get_pattern_pizza_points(_pattern)
+{
+	switch(_pattern)
+	{
+		case (E_KETCHUP_PATTERN.TRIANGLE):
+			return [0, 4, 6];
+		case (E_KETCHUP_PATTERN.SQUARE):
+			return [1, 4, 6, 9];
+		case (E_KETCHUP_PATTERN.PENTAGRAM):
+			return [0, 2, 4, 6, 8];
+		case (E_KETCHUP_PATTERN.INV_PENTAGRAM):
+			return [1, 3, 5, 7, 9];
+	}
+}
+
+/// @function get_pattern_pizza_indices(_pattern);
+/// @param {Any} _pattern Index from balance sheet
+/// @returns {Array<Struct>}
+
+function get_pattern_pizza_indices(_pattern)
 {
 	if (_pattern == E_KETCHUP_PATTERN.TRIANGLE)
 	{

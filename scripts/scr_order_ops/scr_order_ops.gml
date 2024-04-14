@@ -28,11 +28,11 @@ function get_random_ingredient_types(_num)
 /// @function get_random_ingredients(_num, _num_types);
 /// @param {Real} _num Nuber of ingedients
 /// @param {Real} _num_types Nuber of ingedient types
-/// @returns {Array}
+/// @returns {Array<Real>}
 
 function get_random_ingredients(_num, _num_types)
 {
-	result = [];
+	var _result = [];
 	
 	if (_num < _num_types)
 	{
@@ -42,16 +42,16 @@ function get_random_ingredients(_num, _num_types)
 	var _types = get_random_ingredient_types(_num_types);
 	for (var _i = 0; _i < array_length(_types); _i++)
 	{
-		result[_i] = _types[_i]
+		_result[_i] = _types[_i]
 	}
 	
 	for (var _i = 0; _i < _num - array_length(_types); _i++)
 	{
 		var _type_index = random(_num_types - 1);
-		array_push(result, _types[_type_index]);
+		_result[_i + array_length(_types)] = _types[_type_index];
 	}
 	
-	return result;
+	return _result;
 }
 
 /// @function get_closest_difficulty(_pool, _estimate);
@@ -116,8 +116,27 @@ function generate_order(_pool, _estimate)
 	
 	var _toppings = get_random_ingredients(_toppings_num, _ingredients_count);
 	
+	var _points = get_pattern_pizza_points(_ketchup_pattern);
+	
+	if (array_length(_toppings) != array_length(_points))
+	{
+		show_error("Array size mismatch", false);
+		return _result;
+	}
+	
+	var _placed_toppings = [];
+	for (var _i = 0; _i < array_length(_toppings); _i++)
+	{
+		var _placed_topping =
+		{
+			point : _points[_i],
+			topping : _toppings[_i]
+		}
+		_placed_toppings[_i] = _placed_topping;
+	}
+	
 	_result.ketchup_pattern = _ketchup_pattern;
-	_result.toppings = _toppings;
+	_result.toppings = _placed_toppings;
 	
 	return _result;
 }

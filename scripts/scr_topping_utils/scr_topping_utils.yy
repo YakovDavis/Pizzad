@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_topping_utils",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_topping_utils",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
