@@ -52,5 +52,5 @@
     "path":"sprites/spr_topping_container/spr_topping_container.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
