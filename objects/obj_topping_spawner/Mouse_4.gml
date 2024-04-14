@@ -18,3 +18,5 @@ else
 	obj_cursor.cursor_topping_state = topping_type;
 	obj_cursor.cursor_topping_count = 1;
 }
+
+audio_play_sound(snd_button_pressed,0,false);
