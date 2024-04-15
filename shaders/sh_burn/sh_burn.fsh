@@ -15,7 +15,7 @@ void main()
 		noiseUvs[1] + normalized_y * (noiseUvs[3] - noiseUvs[1]));
 	float noise = texture2D(perlinNoise, noiseTexcoord).r;
 	vec4 base_color = texture2D(gm_BaseTexture, v_vTexcoord);
-	vec4 col = mix(burnColor, base_color, clamp(10.0 * noise / (1.0 + burnTime), 0.0, 1.0));
+	vec4 col = mix(burnColor, base_color * v_vColour, clamp(10.0 * noise / (1.0 + burnTime), 0.0, 1.0));
 	float alpha = clamp((1.0 - noise) / (1.0 + burnTime) * 5.0, 0.0, 1.0);
 	if (alpha < 0.2)
 	{
@@ -23,6 +23,6 @@ void main()
 	}
 	else
 	{
-		gl_FragColor = v_vColour * vec4(col.r, col.g, col.b, base_color.a);
+		gl_FragColor = vec4(col.r, col.g, col.b, base_color.a);
 	}
 }

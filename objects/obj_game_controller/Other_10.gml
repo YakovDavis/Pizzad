@@ -92,6 +92,11 @@ if (_success)
 {
 	show_debug_message("MATCH!");
 	array_delete(order_queue, _order_index, 1);
+	if (instance_exists(obj_scroll))
+	{
+		obj_scroll.orders[_order_index].start_time = -1;
+		obj_scroll.orders[_order_index].stop_time = current_time;
+	}
 	event_user(1);
 }
 else

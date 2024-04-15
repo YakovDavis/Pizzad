@@ -26,4 +26,15 @@ var _time = real(time_grid[# 1, _time_row]);
 next_order_time = current_time + _time * 1000.0;
 is_order_coming = true;
 
+with (obj_scroll)
+{
+	var _order_text =
+	{
+		text : generate_random_string(5),
+		start_time : current_time,
+		stop_time : -1
+	}
+	orders[array_length(orders)] = _order_text;
+}
+
 event_user(1);
