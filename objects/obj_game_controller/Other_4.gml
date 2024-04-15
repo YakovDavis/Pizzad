@@ -2,6 +2,8 @@
 
 if (room == rm_main_game)
 {
+	instance_create_layer(0, 0, "Cursor", obj_cursor);
+	alarm_set(0, 0);
 	if(instance_exists(obj_pizza_icon))
 	{
 		var _test = generate_order(pizzas_pool_grid, 20);
