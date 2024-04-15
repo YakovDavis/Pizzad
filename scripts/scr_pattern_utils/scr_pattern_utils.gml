@@ -73,7 +73,7 @@ function get_pattern_pizza_points(_pattern)
 		case (E_KETCHUP_PATTERN.INV_PENTAGRAM):
 			return [1, 3, 5, 7, 9];	
 		case (E_KETCHUP_PATTERN.HEXAGRAM):
-			return [2,5,8,3,0,7,2];	//HEXAGRAM 2583072
+			return [2,5,8,3,0,7];	//HEXAGRAM 2583072
 		case (E_KETCHUP_PATTERN.GEBO):
 			return [1,6,4,9];	//GEBO  16 49
 		case (E_KETCHUP_PATTERN.DAGAZ):
