@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat_omnomnom",
-    "path":"sprites/spr_cat_omnomnom/spr_cat_omnomnom.yy",
+    "name":"spr_cat_eating",
+    "path":"sprites/spr_cat_eating/spr_cat_eating.yy",
   },
   "spriteMaskId":null,
   "visible":true,
