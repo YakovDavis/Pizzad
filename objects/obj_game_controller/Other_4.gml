@@ -9,6 +9,8 @@ order_anchors = [];
 
 customer_number = 1;
 
+instance_create_layer(0, 0, "Cursor", obj_cursor);
+
 if (room == rm_main_game)
 {
 	with (obj_order_anchor)
@@ -17,6 +19,5 @@ if (room == rm_main_game)
 	}
 	// TODO: validate
 	
-	instance_create_layer(0, 0, "Cursor", obj_cursor);
 	event_user(2);
 }
