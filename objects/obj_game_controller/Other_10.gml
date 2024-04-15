@@ -13,6 +13,13 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 	
 	_success = true;
 	
+	// Cheese check
+	if (obj_pizza.cheese != _order.cheese)
+	{
+		_success = false;
+		continue;
+	}
+	
 	// Ketchup check
 	var _indices = get_pattern_pizza_indices(_order.ketchup_pattern);
 	if (array_length(obj_pizza.ketchup_trails) != array_length(_indices))

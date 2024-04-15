@@ -2,6 +2,19 @@
 
 draw_self();
 
+switch (cheese)
+{
+	case (E_CHEESE_STATE.MOZZARELLA):
+		draw_sprite(spr_cheese_mozzarella_full, 0, x, y);
+		break;
+	case (E_CHEESE_STATE.CHEDDAR):
+		draw_sprite(spr_cheese_cheddar_full, 0, x, y);
+		break;
+	case (E_CHEESE_STATE.BLUE):
+		draw_sprite(spr_cheese_blue_full, 0, x, y);
+		break;
+}
+
 for (var _i = 0; _i < array_length(ketchup_trails); _i++)
 {
 	var _x1 = pizza_points[ketchup_trails[_i].point1].x - initial_x + x;

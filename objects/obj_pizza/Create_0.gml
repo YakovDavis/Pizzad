@@ -12,6 +12,8 @@ for (var _i = 0; _i < instance_number(obj_pizza_point); ++_i;)
     pizza_points[_point.point_index] = _point;
 }
 
+cheese = E_CHEESE_STATE.NONE;
+
 ketchup_trails = [];
 
 is_current_trail_active = false;

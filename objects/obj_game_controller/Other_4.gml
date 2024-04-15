@@ -8,5 +8,6 @@ if (room == rm_main_game)
 		order_queue[0] = _test;
 		obj_pizza_icon.ketchup_pattern = _test.ketchup_pattern;
 		obj_pizza_icon.toppings = _test.toppings;
+		obj_pizza_icon.cheese = _test.cheese;
 	}
 }

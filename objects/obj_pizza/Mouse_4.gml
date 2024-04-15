@@ -14,3 +14,9 @@ if (obj_cursor.cursor_state == E_CURSOR_STATE.MOVE)
 {
 	is_being_dragged = true;
 }
+else if (obj_cursor.cursor_state == E_CURSOR_STATE.CHEESE)
+{
+	cheese = obj_cursor.cursor_cheese_state;
+	obj_cursor.cursor_cheese_state = E_CHEESE_STATE.NONE;
+	obj_cursor.cursor_state = E_CURSOR_STATE.MOVE;
+}

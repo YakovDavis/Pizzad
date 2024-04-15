@@ -2,6 +2,19 @@
 
 draw_sprite_ext(sprite_index, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
 
+switch (cheese)
+{
+	case (E_CHEESE_STATE.MOZZARELLA):
+		draw_sprite_ext(spr_cheese_mozzarella_full, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
+		break;
+	case (E_CHEESE_STATE.CHEDDAR):
+		draw_sprite_ext(spr_cheese_cheddar_full, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
+		break;
+	case (E_CHEESE_STATE.BLUE):
+		draw_sprite_ext(spr_cheese_blue_full, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
+		break;
+}
+
 switch (ketchup_pattern)
 {
 	case E_KETCHUP_PATTERN.TRIANGLE:

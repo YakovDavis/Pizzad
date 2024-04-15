@@ -2,6 +2,11 @@
 
 is_current_trail_active = false;
 
+if (focused_point == noone)
+{
+	return;
+}
+
 var _point2 = focused_point.point_index;
 
 var _trail_copy =
