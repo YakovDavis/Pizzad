@@ -91,6 +91,8 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 if (_success)
 {
 	show_debug_message("MATCH!");
+	audio_play_sound(snd_summoning,0,false,global.master_volume*global.sfx_volume);
+	
 	with (obj_oven)
 	{
 		event_user(0);
@@ -120,6 +122,8 @@ if (_success)
 else
 {
 	show_debug_message("MISMATCH!");
+	audio_play_sound(snd_pizza_burnning,0,false,global.master_volume*global.sfx_volume);
+	
 	with (obj_oven)
 	{
 		event_user(1);
@@ -129,6 +133,7 @@ else
 	if(annoyance_meter >= round(4.5)){
 	
 		instance_create_layer(0,0,"game_over",obj_game_over);
+		audio_play_sound(snd_game_over_2,0,false);
 		alarm_set(2,100);
 	}
 }
