@@ -44,7 +44,7 @@ switch (ketchup_pattern)
 		draw_sprite_ext(spr_pattern_hexagram, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
 		break;
 	case E_KETCHUP_PATTERN.DAGAZ:
-		draw_sprite_ext(spr_pattern_hexagram, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
+		draw_sprite_ext(spr_pattern_dagaz, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
 		break;
 }
 

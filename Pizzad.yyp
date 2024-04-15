@@ -82,6 +82,7 @@
     {"id":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},},
     {"id":{"name":"obj_sound_volume_slider","path":"objects/obj_sound_volume_slider/obj_sound_volume_slider.yy",},},
     {"id":{"name":"obj_topping_spawner","path":"objects/obj_topping_spawner/obj_topping_spawner.yy",},},
+    {"id":{"name":"obj_scroll","path":"objects/obj_scroll/obj_scroll.yy",},},
     {"id":{"name":"rm_main_game","path":"rooms/rm_main_game/rm_main_game.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
