@@ -11,4 +11,4 @@ need_fade_in = false;
 fade_in_start = current_time;
 fade_in_alpha_multiplier = 0.0;
 
-
+fade_out_start = -1;
