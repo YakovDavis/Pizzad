@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_ketchup_trail",
   "bboxMode":0,
-  "bbox_bottom":1022,
+  "bbox_bottom":1021,
   "bbox_left":0,
-  "bbox_right":62,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3b09c40c-96bf-45da-acf7-b3f6f3d0a2c2","name":"3b09c40c-96bf-45da-acf7-b3f6f3d0a2c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0d56c0ed-9ecc-423c-8411-05684a8ed1d0","name":"0d56c0ed-9ecc-423c-8411-05684a8ed1d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1024,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d1759681-cb15-4423-95ac-30ced2752bd8","blendMode":0,"displayName":"default","isLocked":false,"name":"d1759681-cb15-4423-95ac-30ced2752bd8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7c112d0a-461b-4911-a8fb-390da72d82e7","blendMode":0,"displayName":"default","isLocked":false,"name":"7c112d0a-461b-4911-a8fb-390da72d82e7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ketchup_trail",
   "nineSlice":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b09c40c-96bf-45da-acf7-b3f6f3d0a2c2","path":"sprites/spr_ketchup_trail/spr_ketchup_trail.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6148851e-a6d5-4c60-9e98-d4f1c4e9132b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d56c0ed-9ecc-423c-8411-05684a8ed1d0","path":"sprites/spr_ketchup_trail/spr_ketchup_trail.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ba18fa9e-2d4a-4a35-8e74-e60215061a91","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
