@@ -69,7 +69,7 @@ function get_closest_difficulty(_pool, _estimate)
 		var _current = real(_pool[# 5, _row]);
 		if (abs(_current - _estimate) < _distance)
 		{
-			_distance = _current - _estimate;
+			_distance = abs(_current - _estimate);
 			_closest = _current;
 		}
 	}
@@ -107,8 +107,8 @@ function generate_order(_pool, _estimate)
 	
 	var _chosen_row = _matching_rows[random(array_length(_matching_rows))];
 	
-	var _ingredients_count = _pool[# 0, _chosen_row];
-	var _ketchup_pattern_index = _pool[# 1, _chosen_row];
+	var _ingredients_count = real(_pool[# 0, _chosen_row]);
+	var _ketchup_pattern_index = real(_pool[# 1, _chosen_row]);
 	
 	var _ketchup_pattern = get_pattern_enum(_ketchup_pattern_index);
 	

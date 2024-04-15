@@ -77,9 +77,9 @@ function get_pattern_pizza_points(_pattern)
 		case (E_KETCHUP_PATTERN.GEBO):
 			return [1,6,4,9];	//GEBO  16 49
 		case (E_KETCHUP_PATTERN.DAGAZ):
-			return [1,6,9,4,1];	//DAGAZ 16941
+			return [1,6,9,4];	//DAGAZ 16941
 		case (E_KETCHUP_PATTERN.TWO_SQUARES):
-			return [1,2,3,9,8,7,1];//TWO_SQUARES 1239871
+			return [1,2,3,9,8,7];//TWO_SQUARES 1239871
 		case (E_KETCHUP_PATTERN.JUSTICE):
 			return [2,1,6,5,4,9,8];	//JUSTICE 2165498
 	}
@@ -197,7 +197,7 @@ function get_pattern_pizza_indices(_pattern)
 	}
 	
 		//HEXAGRAM					
-	if (_pattern == E_KETCHUP_PATTERN.INV_PENTAGRAM) //HEXAGRAM 2583072
+	if (_pattern == E_KETCHUP_PATTERN.HEXAGRAM) //HEXAGRAM 2583072
 	{
 		s1 =
 		{

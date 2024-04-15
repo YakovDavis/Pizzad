@@ -27,7 +27,7 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 		for (var _k = 0; _k < array_length(_indices); _k++)
 		{
 			var _strip = _indices[_k];
-			if (obj_pizza.ketchup_trails[_j].point1 == _strip.p1 && obj_pizza.ketchup_trails[_j].point2 == _strip.p2)
+			if ((obj_pizza.ketchup_trails[_j].point1 == _strip.p1 && obj_pizza.ketchup_trails[_j].point2 == _strip.p2) || (obj_pizza.ketchup_trails[_j].point1 == _strip.p2 && obj_pizza.ketchup_trails[_j].point2 == _strip.p1))
 			{
 				_strip_found = true;
 				break;
