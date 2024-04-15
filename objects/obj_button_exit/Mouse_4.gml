@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-//audio_play_sound(snd_button_pressed,0,false);
+audio_play_sound(snd_button_pressed,0,false);
 
-game_end();
+room_goto(rm_menu);

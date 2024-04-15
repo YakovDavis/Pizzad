@@ -8,5 +8,5 @@ event_inherited();
 audio_play_sound(snd_button_pressed,0,false);
 
 
-room_goto(rm_game);
+room_goto(rm_main_game);
 

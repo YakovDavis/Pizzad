@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-if (room == rm_settings || room == rm_game)
+if (room == rm_main_game)
 {
 	if(instance_exists(obj_pizza_icon))
 	{
