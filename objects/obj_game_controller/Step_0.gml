@@ -6,10 +6,18 @@ if (room == rm_main_game)
 	
 	if (is_order_coming)
 	{
-		if (current_time >= next_order_time)
+		if (array_length(order_queue) < max_orders)
 		{
-			is_order_coming = false;
-			event_user(2);
+			if (current_time >= next_order_time)
+			{
+				is_order_coming = false;
+				event_user(2);
+			}
+		}
+		else
+		{
+			next_order_time += delta_time;
+			annoyance_meter += annoyance_overflow_speed;
 		}
 	}
 }

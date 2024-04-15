@@ -1,3 +1,5 @@
 /// @description Stop room music
-
-audio_stop_all();
+if (global.should_mute_on_leave)
+{
+	audio_stop_all();
+}

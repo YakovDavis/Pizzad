@@ -9,6 +9,8 @@ order_anchors = [];
 
 customer_number = 1;
 
+global.should_mute_on_leave = true;
+
 instance_create_layer(0, 0, "Cursor", obj_cursor);
 
 if (room == rm_main_game)

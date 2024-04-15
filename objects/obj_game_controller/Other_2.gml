@@ -48,3 +48,4 @@ global.music_volume = 0.2;
 global.sfx_volume = 0.5;
 
 global.is_paused = false;
+global.should_mute_on_leave = true;
