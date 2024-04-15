@@ -1,4 +1,10 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"misc","order":2,"path":"folders/Sprites/misc.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_shader_test","order":1,"path":"objects/obj_shader_test/obj_shader_test.yy",},
+    {"name":"sh_burn","order":1,"path":"shaders/sh_burn/sh_burn.yy",},
+    {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
+  ],
 }
