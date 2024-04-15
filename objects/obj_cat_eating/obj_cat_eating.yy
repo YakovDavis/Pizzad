@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat_eating",
-    "path":"sprites/spr_cat_eating/spr_cat_eating.yy",
+    "name":"spr_cat_mukbang",
+    "path":"sprites/spr_cat_mukbang/spr_cat_mukbang.yy",
   },
   "spriteMaskId":null,
   "visible":true,
