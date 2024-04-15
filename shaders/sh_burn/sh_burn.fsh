@@ -1,7 +1,3 @@
-//
-// Simple passthrough fragment shader
-//
-
 uniform sampler2D perlinNoise;
 uniform vec4 burnColor;
 uniform float burnTime;
