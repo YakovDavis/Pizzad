@@ -91,6 +91,10 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 if (_success)
 {
 	show_debug_message("MATCH!");
+	if (instance_exists(obj_monster_anchor))
+	{
+		instance_create_layer(obj_monster_anchor.x, obj_monster_anchor.y, "Ketchup", obj_monster);
+	}
 	with (obj_pizza_icon)
 	{
 		if (ind = _order_index)
