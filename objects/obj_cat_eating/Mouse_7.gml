@@ -14,8 +14,15 @@ if (!instance_exists(obj_pizza))
 //if (obj_pizza.is_being_dragged)
 //{
 audio_play_sound(snd_pizza_cat_eating,0,false,global.master_volume*global.sfx_volume);
+	
+	with (obj_pizza_point)
+	{ 
+		topping = E_TOPPING_STATE.NONE ;
+	}
+
+	
 	with (obj_pizza)
-	{
+	{ 
 		event_user(2);
 	}
 
