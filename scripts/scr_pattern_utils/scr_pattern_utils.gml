@@ -79,9 +79,9 @@ function get_pattern_pizza_points(_pattern)
 		case (E_KETCHUP_PATTERN.DAGAZ):
 			return [1,6,9,4];	//DAGAZ 16941
 		case (E_KETCHUP_PATTERN.TWO_SQUARES):
-			return [1,2,3,9,8,7];//TWO_SQUARES 1239871
+			return [1,2,4,9,7,6];//TWO_SQUARES 1239871 -> 1249761
 		case (E_KETCHUP_PATTERN.JUSTICE):
-			return [2,1,6,5,4,9,8];	//JUSTICE 2165498
+			return [2,1,7,5,3,9,8];	//JUSTICE 2165498 -> 2175398
 	}
 }
 
@@ -278,7 +278,7 @@ function get_pattern_pizza_indices(_pattern)
 		return [s1, s2, s3, s4];
 	}
 	
-	  //TWO_SQUARES 1239871
+	  //TWO_SQUARES 1239871 -> 1249761
 	if (_pattern == E_KETCHUP_PATTERN.TWO_SQUARES)
 	{
 		s1 =
@@ -289,33 +289,33 @@ function get_pattern_pizza_indices(_pattern)
 		s2 =
 		{
 			p1 : 2,
-			p2 : 3,
+			p2 : 4,
 		};
 		s3 =
 		{
-			p1 : 3,
+			p1 : 4,
 			p2 : 9,
 		};
 		s4 =
 		{
 			p1 : 9,
-			p2 : 8,
+			p2 : 7,
 		};
 		s5 =
 		{
-			p1 : 8,
-			p2 : 7,
+			p1 : 7,
+			p2 : 6,
 		};
 		s6 =
 		{
-			p1 : 7,
+			p1 : 6,
 			p2 : 1,
 		};
 		
 		return [s1, s2, s3, s4, s5, s6];
 	}
 		
-		//JUSTICE 2165498
+		//JUSTICE 2165498 -> 2175398
 	if (_pattern == E_KETCHUP_PATTERN.JUSTICE)
 	{
 		s1 =
@@ -326,21 +326,21 @@ function get_pattern_pizza_indices(_pattern)
 		s2 =
 		{
 			p1 : 1,
-			p2 : 6,
+			p2 : 7,
 		};
 		s3 =
 		{
-			p1 : 6,
+			p1 : 7,
 			p2 : 5,
 		};
 		s4 =
 		{
 			p1 : 5,
-			p2 : 4,
+			p2 : 3,
 		};
 		s5 =
 		{
-			p1 : 4,
+			p1 : 3,
 			p2 : 9,
 		};
 		s6 =
