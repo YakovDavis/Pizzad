@@ -113,6 +113,13 @@ else
 {
 	show_debug_message("MISMATCH!");
 	annoyance_meter += 1.0;
+	
+	if(annoyance_meter >= round(4.5)){
+	
+		instance_create_layer(0,0,"game_over",obj_game_over);
+		alarm_set(2,200);
+	
+	}
 }
 
 with (obj_pizza)
