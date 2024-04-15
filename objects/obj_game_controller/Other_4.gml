@@ -1,5 +1,14 @@
 /// @description Insert description here
 
+next_order_time = current_time;
+is_order_coming = false;
+
+order_queue = [];
+
+order_anchors = [];
+
+customer_number = 1;
+
 if (room == rm_main_game)
 {
 	with (obj_order_anchor)
