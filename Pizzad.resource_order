@@ -16,6 +16,8 @@
     {"name":"misc","order":2,"path":"folders/Sprites/misc.yy",},
     {"name":"Tile Sets","order":12,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
+    {"name":"pizza","order":3,"path":"folders/Sprites/pizza.yy",},
+    {"name":"circles","order":1,"path":"folders/Sprites/pizza/circles.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_button_exit","order":1,"path":"objects/obj_button_exit/obj_button_exit.yy",},
@@ -34,7 +36,9 @@
     {"name":"snd_pizza_d_menu_theme_v1","order":1,"path":"sounds/snd_pizza_d_menu_theme_v1/snd_pizza_d_menu_theme_v1.yy",},
     {"name":"spr_cheese_blue_full","order":1,"path":"sprites/spr_cheese_blue_full/spr_cheese_blue_full.yy",},
     {"name":"spr_cheese_cheddar_full","order":2,"path":"sprites/spr_cheese_cheddar_full/spr_cheese_cheddar_full.yy",},
-    {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
     {"name":"spr_cheese_mozzarella_full","order":3,"path":"sprites/spr_cheese_mozzarella_full/spr_cheese_mozzarella_full.yy",},
+    {"name":"spr_circle_1","order":1,"path":"sprites/spr_circle_1/spr_circle_1.yy",},
+    {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
+    {"name":"spr_circle_2","order":2,"path":"sprites/spr_circle_2/spr_circle_2.yy",},
   ],
 }
