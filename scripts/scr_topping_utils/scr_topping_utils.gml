@@ -34,3 +34,43 @@ function get_topping_sprite(_topping)
 	show_error("Incorrect topping state", false);
 	return spr_top_anchovy;
 }
+
+
+/// @function get_cheese_full_sprite(_cheese);
+/// @param {Any} _cheese Cheese
+/// @returns {Asset.GMSprite}
+
+function get_cheese_full_sprite(_cheese)
+{
+	switch(_cheese)
+	{
+		case (E_CHEESE_STATE.CHEDDAR):
+			return spr_cheese_cheddar_full;
+		case (E_CHEESE_STATE.MOZZARELLA):
+			return spr_cheese_mozzarella_full;
+		case (E_CHEESE_STATE.BLUE):
+			return spr_cheese_blue_full;
+	}
+	show_error("Incorrect cheese_full state", false);
+	return spr_cheese_blue_full;
+}
+
+
+/// @function get_cheese_sprite(_cheese);
+/// @param {Any} _cheese Cheese
+/// @returns {Asset.GMSprite}
+
+function get_cheese_sprite(_cheese)
+{
+	switch(_cheese)
+	{
+		case (E_CHEESE_STATE.CHEDDAR):
+			return spr_cheese_cheddar;
+		case (E_CHEESE_STATE.MOZZARELLA):
+			return spr_cheese_mozzarella;
+		case (E_CHEESE_STATE.BLUE):
+			return spr_cheese_blue;
+	}
+	show_error("Incorrect cheese state", false);
+	return spr_cheese_blue;
+}

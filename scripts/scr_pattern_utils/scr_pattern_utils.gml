@@ -352,3 +352,37 @@ function get_pattern_pizza_indices(_pattern)
 		return [s1, s2, s3, s4, s5, s6];
 	}
 }
+
+
+
+/// @function get_ketchup_pattern_sprite(_pattern);
+/// @param {Any} _pattern Ketchup
+/// @returns {Asset.GMSprite}
+
+function get_ketchup_sprite(_pattern)
+{	
+	switch(_pattern)
+	{
+		case (E_KETCHUP_PATTERN.TRIANGLE):
+			return spr_pattern_triangle;
+		case (E_KETCHUP_PATTERN.SQUARE):
+			return spr_pattern_square;
+		case (E_KETCHUP_PATTERN.PENTAGRAM):
+			return spr_pattern_pentagram;	
+		case (E_KETCHUP_PATTERN.INV_PENTAGRAM):
+			return spr_pattern_inv_pentagram;
+		case (E_KETCHUP_PATTERN.HEXAGRAM):
+			return spr_pattern_hexagram;
+		case (E_KETCHUP_PATTERN.GEBO):
+			return spr_pattern_gebo;	
+		case (E_KETCHUP_PATTERN.DAGAZ):
+			return spr_pattern_dagaz;	
+		case (E_KETCHUP_PATTERN.TWO_SQUARES):
+			return spr_pattern_two_squares;
+		case (E_KETCHUP_PATTERN.JUSTICE):
+			return spr_pattern_justice;
+			
+	}
+	show_error("Incorrect ketchup pattern state", false);
+	return spr_pattern_square;
+}
