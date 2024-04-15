@@ -32,7 +32,8 @@ with (obj_scroll)
 	{
 		text : generate_random_string(5),
 		start_time : current_time,
-		stop_time : -1
+		stop_time : -1,
+		good_stop : false
 	}
 	orders[array_length(orders)] = _order_text;
 }

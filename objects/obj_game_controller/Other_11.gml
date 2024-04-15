@@ -5,7 +5,7 @@ with (obj_pizza_icon)
 	instance_destroy(self);
 }
 
-for (var _i = 0; _i < clamp(array_length(order_queue), 0, array_length(order_anchors) - 1); _i++)
+for (var _i = 0; _i < clamp(array_length(order_queue), 0, array_length(order_anchors)); _i++)
 {
 	var _order = order_queue[_i];
 	var _anchor = order_anchors[_i];

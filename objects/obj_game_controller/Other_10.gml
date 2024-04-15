@@ -96,6 +96,8 @@ if (_success)
 	{
 		obj_scroll.orders[_order_index].start_time = -1;
 		obj_scroll.orders[_order_index].stop_time = current_time;
+		obj_scroll.orders[_order_index].good_stop = true;
+		
 	}
 	event_user(1);
 }

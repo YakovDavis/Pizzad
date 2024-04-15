@@ -16,5 +16,6 @@ orders = [];
 	ind : 0,
 	text : "♈♉♊♓",
 	start_time : current_time,
-	stop_time : -1
+	stop_time : -1,
+	good_stop : false;
 }*/

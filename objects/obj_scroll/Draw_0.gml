@@ -17,7 +17,14 @@ for (var _i = 0; _i < array_length(orders); _i++)
 	else if (_order.stop_time > -1)
 	{
 		shader_set(sh_burn);
-		shader_set_uniform_f_array(burn_color_uniform, [1, 0, 1, 1]);
+		if (_order.good_stop)
+		{
+			shader_set_uniform_f_array(burn_color_uniform, [1, 0, 1, 1]);
+		}
+		else
+		{
+			shader_set_uniform_f_array(burn_color_uniform, [1, 0, 0, 1]);
+		}
 		shader_set_uniform_f_array(base_uvs_uniform, font_get_uvs(fnt_zodiac));
 		shader_set_uniform_f_array(noise_uvs_uniform, texture_get_uvs(perlin_texture));
 		shader_set_uniform_f(burn_time_uniform, (current_time - _order.stop_time) / 200.0);

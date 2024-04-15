@@ -61,3 +61,5 @@ for (var _i = 0; _i < array_length(toppings); _i++)
 	
 	draw_sprite_ext(get_topping_sprite(toppings[_i].topping), 0, x + (_point.x - obj_pizza.initial_x) * icon_scale, y + (_point.y - obj_pizza.initial_y) * icon_scale, icon_scale, icon_scale, 0, c_white, icon_alpha * fade_in_alpha_multiplier);
 }
+
+shader_reset();
