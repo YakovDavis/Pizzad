@@ -1,5 +1,7 @@
 /// @description Init
 
+sprite_index = ring_sprite;
+
 sprite_color = c_white;
 
 should_ring_be_visible = false;

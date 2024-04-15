@@ -35,6 +35,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"","%Name":"point_index","filters":[],"listItems":[],"multiselect":false,"name":"point_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"","%Name":"ring_sprite","filters":[],"listItems":[],"multiselect":false,"name":"ring_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_pizza_point_idle","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
