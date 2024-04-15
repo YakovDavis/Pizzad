@@ -130,7 +130,7 @@ else
 	}
 	annoyance_meter += 1.0;
 	
-	if(annoyance_meter >= round(4.5)){
+	if(round(annoyance_meter) >= 5){
 	
 		instance_create_layer(0,0,"game_over",obj_game_over);
 		audio_play_sound(snd_game_over_2,0,false);

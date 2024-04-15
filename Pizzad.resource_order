@@ -37,11 +37,13 @@
     {"name":"snd_pizza_d__main_theme_b__v1","order":6,"path":"sounds/snd_pizza_d__main_theme_b__v1/snd_pizza_d__main_theme_b__v1.yy",},
     {"name":"snd_pizza_eating","order":11,"path":"sounds/snd_pizza_eating/snd_pizza_eating.yy",},
     {"name":"snd_summoning","order":9,"path":"sounds/snd_summoning/snd_summoning.yy",},
+    {"name":"spr_bar_outer","order":3,"path":"sprites/spr_bar_outer/spr_bar_outer.yy",},
     {"name":"spr_cat_eating","order":2,"path":"sprites/spr_cat_eating/spr_cat_eating.yy",},
     {"name":"spr_cat_mukbang","order":3,"path":"sprites/spr_cat_mukbang/spr_cat_mukbang.yy",},
     {"name":"spr_fire_fail","order":2,"path":"sprites/spr_fire_fail/spr_fire_fail.yy",},
     {"name":"spr_fire_success","order":1,"path":"sprites/spr_fire_success/spr_fire_success.yy",},
     {"name":"spr_game_over","order":1,"path":"sprites/spr_game_over/spr_game_over.yy",},
     {"name":"spr_oven_chimney","order":1,"path":"sprites/spr_oven_chimney/spr_oven_chimney.yy",},
+    {"name":"spr_bar_inner","order":4,"path":"sprites/spr_bar_inner/spr_bar_inner.yy",},
   ],
 }

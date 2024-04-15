@@ -47,7 +47,7 @@ function get_random_ingredients(_num, _num_types)
 	
 	for (var _i = 0; _i < _num - array_length(_types); _i++)
 	{
-		var _type_index = random(_num_types - 1);
+		var _type_index = round(random(_num_types - 1));
 		_result[_i + array_length(_types)] = _types[_type_index];
 	}
 	
@@ -140,6 +140,8 @@ function generate_order(_pool, _estimate)
 	_result.cheese = round(random_range(E_CHEESE_STATE.MOZZARELLA, E_CHEESE_STATE.BLUE));
 	_result.icon = noone;
 	_result.icon_fade = true;
+	_result.timer_start = current_time;
+	_result.timer = 1.0;
 	
 	return _result;
 }

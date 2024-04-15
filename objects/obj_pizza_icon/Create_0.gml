@@ -8,6 +8,8 @@ cheese = E_CHEESE_STATE.NONE;
 
 toppings = [];
 
+timer_state = 1.0;
+
 need_fade_in = false;
 
 fade_in_start = current_time;
