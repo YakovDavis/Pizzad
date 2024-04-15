@@ -16,6 +16,9 @@
     {"name":"rm_settings","order":1,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"sh_burn","order":1,"path":"shaders/sh_burn/sh_burn.yy",},
     {"name":"snd_pizza_d_menu_theme_v1","order":1,"path":"sounds/snd_pizza_d_menu_theme_v1/snd_pizza_d_menu_theme_v1.yy",},
+    {"name":"spr_cheese_blue_full","order":1,"path":"sprites/spr_cheese_blue_full/spr_cheese_blue_full.yy",},
+    {"name":"spr_cheese_cheddar_full","order":2,"path":"sprites/spr_cheese_cheddar_full/spr_cheese_cheddar_full.yy",},
     {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
+    {"name":"spr_cheese_mozzarella_full","order":3,"path":"sprites/spr_cheese_mozzarella_full/spr_cheese_mozzarella_full.yy",},
   ],
 }
