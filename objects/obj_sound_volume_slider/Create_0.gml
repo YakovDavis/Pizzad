@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-slider_pos = 1.0;
+// Inherit the parent event
+event_inherited();
+
+slider_pos = global.sfx_volume;

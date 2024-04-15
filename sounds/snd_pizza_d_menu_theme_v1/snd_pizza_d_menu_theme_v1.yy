@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_pizza_d_menu_theme_v1.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.2,
 }
