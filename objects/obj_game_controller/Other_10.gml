@@ -91,6 +91,14 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 if (_success)
 {
 	show_debug_message("MATCH!");
+	with (obj_pizza_icon)
+	{
+		if (ind = _order_index)
+		{
+			fade_out_start = current_time;
+			good_burn = true;
+		}
+	}
 	array_delete(order_queue, _order_index, 1);
 	if (instance_exists(obj_scroll))
 	{
@@ -99,11 +107,12 @@ if (_success)
 		obj_scroll.orders[_order_index].good_stop = true;
 		
 	}
-	event_user(1);
+	alarm_set(1, 150);
 }
 else
 {
 	show_debug_message("MISMATCH!");
+	annoyance_meter += 1.0;
 }
 
 with (obj_pizza)

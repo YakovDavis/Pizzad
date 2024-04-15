@@ -178,6 +178,7 @@
     {"id":{"name":"spr_topping_box","path":"sprites/spr_topping_box/spr_topping_box.yy",},},
     {"id":{"name":"spr_topping_container","path":"sprites/spr_topping_container/spr_topping_container.yy",},},
     {"id":{"name":"spr_cat_omnomnom","path":"sprites/spr_cat_omnomnom/spr_cat_omnomnom.yy",},},
+    {"id":{"name":"spr_oven_chimney","path":"sprites/spr_oven_chimney/spr_oven_chimney.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
