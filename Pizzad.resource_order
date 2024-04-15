@@ -20,6 +20,7 @@
     {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_button_cross","order":6,"path":"objects/obj_button_cross/obj_button_cross.yy",},
     {"name":"obj_button_exit","order":1,"path":"objects/obj_button_exit/obj_button_exit.yy",},
     {"name":"obj_button_parent","order":3,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
@@ -35,12 +36,14 @@
     {"name":"scr_pattern_utils","order":2,"path":"scripts/scr_pattern_utils/scr_pattern_utils.yy",},
     {"name":"sh_burn","order":1,"path":"shaders/sh_burn/sh_burn.yy",},
     {"name":"snd_pizza_d_menu_theme_v1","order":1,"path":"sounds/snd_pizza_d_menu_theme_v1/snd_pizza_d_menu_theme_v1.yy",},
+    {"name":"spr_button_cross","order":1,"path":"sprites/spr_button_cross/spr_button_cross.yy",},
     {"name":"spr_cheese_blue_full","order":1,"path":"sprites/spr_cheese_blue_full/spr_cheese_blue_full.yy",},
     {"name":"spr_cheese_cheddar_full","order":2,"path":"sprites/spr_cheese_cheddar_full/spr_cheese_cheddar_full.yy",},
     {"name":"spr_cheese_mozzarella_full","order":3,"path":"sprites/spr_cheese_mozzarella_full/spr_cheese_mozzarella_full.yy",},
     {"name":"spr_circle_1","order":1,"path":"sprites/spr_circle_1/spr_circle_1.yy",},
     {"name":"spr_circle_2","order":2,"path":"sprites/spr_circle_2/spr_circle_2.yy",},
-    {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
     {"name":"spr_order_cloud","order":1,"path":"sprites/spr_order_cloud/spr_order_cloud.yy",},
+    {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
+    {"name":"spr_scroll","order":1,"path":"sprites/spr_scroll/spr_scroll.yy",},
   ],
 }
