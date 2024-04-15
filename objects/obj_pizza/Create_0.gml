@@ -20,6 +20,8 @@ is_current_trail_active = false;
 
 focused_point = noone;
 
+is_being_dragged = false;
+
 current_trail =
 {
 	point1 : -1,
@@ -38,6 +40,4 @@ with (obj_pizza_point)
 	initial_pizza_x = obj_pizza.x;
 	initial_pizza_y = obj_pizza.y;
 }
-
-is_being_dragged = false;
 

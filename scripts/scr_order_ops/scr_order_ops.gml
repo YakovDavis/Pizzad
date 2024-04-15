@@ -138,6 +138,7 @@ function generate_order(_pool, _estimate)
 	_result.ketchup_pattern = _ketchup_pattern;
 	_result.toppings = _placed_toppings;
 	_result.cheese = round(random_range(E_CHEESE_STATE.MOZZARELLA, E_CHEESE_STATE.BLUE));
+	_result.icon = noone;
 	
 	return _result;
 }

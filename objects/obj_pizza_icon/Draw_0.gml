@@ -1,5 +1,7 @@
 /// @description Render
 
+draw_sprite_ext(spr_order_cloud, 0, x, y, 1, 1, 0, c_white, icon_alpha);
+
 draw_sprite_ext(sprite_index, 0, x, y, icon_scale, icon_scale, 0, c_white, icon_alpha);
 
 switch (cheese)

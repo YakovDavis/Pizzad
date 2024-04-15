@@ -6,10 +6,12 @@ if (!instance_exists(obj_pizza))
 }
 
 var _success = true;
+var _order_index = 0;
 
 for (var _i = 0; _i < array_length(order_queue); _i++)
 {
 	var _order = order_queue[_i];
+	_order_index = _i;
 	
 	_success = true;
 	
@@ -89,8 +91,15 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 if (_success)
 {
 	show_debug_message("MATCH!");
+	array_delete(order_queue, _order_index, 1);
+	event_user(1);
 }
 else
 {
 	show_debug_message("MISMATCH!");
+}
+
+with (obj_pizza)
+{
+	event_user(2);
 }

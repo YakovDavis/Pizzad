@@ -4,6 +4,11 @@ randomize();
 
 order_queue = [];
 
+order_anchors = [];
+
+next_order_time = current_time;
+is_order_coming = false;
+
 customer_number = 1;
 
 pizzas_pool_grid = load_csv("pizzas_pool.csv");

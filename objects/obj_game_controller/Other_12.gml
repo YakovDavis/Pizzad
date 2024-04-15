@@ -9,7 +9,7 @@ if (_dificulty_row <= 0)
 {
 	_dificulty_row = 1;
 }
-var _difficulty = difficulty_grid[# 1, _dificulty_row];
+var _difficulty = real(difficulty_grid[# 1, _dificulty_row]);
 var _order = generate_order(pizzas_pool_grid, _difficulty);
 array_push(order_queue, _order);
 
@@ -22,4 +22,8 @@ if (_time_row <= 0)
 {
 	_time_row = 1;
 }
-alarm_set(0, time_grid[# 1, _time_row]);
+var _time = real(time_grid[# 1, _time_row]);
+next_order_time = current_time + _time * 1000.0;
+is_order_coming = true;
+
+event_user(1);

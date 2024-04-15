@@ -2,14 +2,12 @@
 
 if (room == rm_main_game)
 {
-	instance_create_layer(0, 0, "Cursor", obj_cursor);
-	alarm_set(0, 0);
-	if(instance_exists(obj_pizza_icon))
+	with (obj_order_anchor)
 	{
-		var _test = generate_order(pizzas_pool_grid, 20);
-		order_queue[0] = _test;
-		obj_pizza_icon.ketchup_pattern = _test.ketchup_pattern;
-		obj_pizza_icon.toppings = _test.toppings;
-		obj_pizza_icon.cheese = _test.cheese;
+		obj_game_controller.order_anchors[order_index] = self;
 	}
+	// TODO: validate
+	
+	instance_create_layer(0, 0, "Cursor", obj_cursor);
+	event_user(2);
 }

@@ -26,10 +26,10 @@
     {"name":"obj_master_volume_slider","order":2,"path":"objects/obj_master_volume_slider/obj_master_volume_slider.yy",},
     {"name":"obj_music_manager","order":1,"path":"objects/obj_music_manager/obj_music_manager.yy",},
     {"name":"obj_music_volume_slider","order":3,"path":"objects/obj_music_volume_slider/obj_music_volume_slider.yy",},
+    {"name":"obj_order_anchor","order":2,"path":"objects/obj_order_anchor/obj_order_anchor.yy",},
     {"name":"obj_shader_test","order":1,"path":"objects/obj_shader_test/obj_shader_test.yy",},
     {"name":"obj_slider","order":5,"path":"objects/obj_slider/obj_slider.yy",},
     {"name":"obj_sound_volume_slider","order":4,"path":"objects/obj_sound_volume_slider/obj_sound_volume_slider.yy",},
-    {"name":"obj_order_anchor","order":2,"path":"objects/obj_order_anchor/obj_order_anchor.yy",},
     {"name":"rm_settings","order":1,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"scr_order_ops","order":1,"path":"scripts/scr_order_ops/scr_order_ops.yy",},
     {"name":"scr_pattern_utils","order":2,"path":"scripts/scr_pattern_utils/scr_pattern_utils.yy",},
@@ -41,5 +41,6 @@
     {"name":"spr_circle_1","order":1,"path":"sprites/spr_circle_1/spr_circle_1.yy",},
     {"name":"spr_circle_2","order":2,"path":"sprites/spr_circle_2/spr_circle_2.yy",},
     {"name":"spr_perlin","order":1,"path":"sprites/spr_perlin/spr_perlin.yy",},
+    {"name":"spr_order_cloud","order":1,"path":"sprites/spr_order_cloud/spr_order_cloud.yy",},
   ],
 }
