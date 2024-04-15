@@ -49,4 +49,4 @@ with (obj_pizza)
 	event_user(0);
 }
 
-audio_play_sound(snd_ketchup,0,false);
+audio_play_sound(snd_ketchup,0,false,global.master_volume*global.sfx_volume);

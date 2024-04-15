@@ -11,4 +11,4 @@ if (!instance_exists(obj_cursor))
 	obj_cursor.cursor_cheese_state = cheese_type;
 	obj_cursor.cursor_cheese_count = 1;
 	
-	audio_play_sound(snd_button_pressed,0,false);
+	audio_play_sound(snd_button_pressed,0,false,global.master_volume*global.sfx_volume);

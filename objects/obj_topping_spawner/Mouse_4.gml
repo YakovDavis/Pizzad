@@ -24,4 +24,4 @@ else
 	obj_cursor.cursor_topping_count = 1;
 }
 
-audio_play_sound(snd_button_pressed,0,false);
+audio_play_sound(snd_button_pressed,0,false,global.master_volume*global.sfx_volume);
