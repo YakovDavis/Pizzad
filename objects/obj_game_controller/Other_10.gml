@@ -92,6 +92,10 @@ if (_success)
 {
 	show_debug_message("MATCH!");
 	game_score += 1;
+	if (game_score % 5 == 0)
+	{
+		instance_create_layer(0, 0, "Achievements", obj_achievement);
+	}
 	audio_play_sound(snd_summoning,0,false,global.master_volume*global.sfx_volume);
 	
 	with (obj_oven)

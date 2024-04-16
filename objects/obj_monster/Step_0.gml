@@ -7,6 +7,11 @@ if (!is_moving)
 
 move_progress = clamp((current_time - move_start_time) / move_time, 0, 1);
 
+if (move_progress > 0.999)
+{
+	instance_destroy(self);
+}
+
 if (!instance_exists(obj_monster_anchor) || !instance_exists(obj_monster_anchor))
 {
 	return;
