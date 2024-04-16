@@ -43,7 +43,7 @@ if (room == rm_main_game)
 				obj_scroll.orders[_i].good_stop = false;
 			}
 			
-			annoyance_meter += 2.0;
+			annoyance_meter += annoyance_order_expired;
 			if(round(annoyance_meter) >= 5)
 			{
 				instance_create_layer(0,0,"game_over",obj_game_over);

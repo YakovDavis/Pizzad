@@ -11,6 +11,8 @@ customer_number = 1;
 
 game_score = 0;
 
+annoyance_meter = 0.0;
+
 global.should_mute_on_leave = true;
 
 instance_create_layer(0, 0, "Cursor", obj_cursor);

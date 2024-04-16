@@ -90,9 +90,9 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 
 if (_success)
 {
-	show_debug_message("MATCH!");
+	//show_debug_message("MATCH!");
 	game_score += 1;
-	if (game_score % 5 == 0)
+	if (game_score % 5 == 0 || game_score == 13 || game_score == 69)
 	{
 		instance_create_layer(0, 0, "Achievements", obj_achievement);
 	}
@@ -125,14 +125,14 @@ if (_success)
 }
 else
 {
-	show_debug_message("MISMATCH!");
+	//show_debug_message("MISMATCH!");
 	audio_play_sound(snd_pizza_burnning,0,false,global.master_volume*global.sfx_volume);
 	
 	with (obj_oven)
 	{
 		event_user(1);
 	}
-	annoyance_meter += 1.0;
+	annoyance_meter += annoyance_wrong_pizza;
 	
 	if(round(annoyance_meter) >= 5){
 	

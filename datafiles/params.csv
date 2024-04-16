@@ -1,0 +1,8 @@
+ParamName,Value
+order_timer_length,60000
+annoyance_down_speed,0.0005
+annoyance_overflow_speed,0
+annoyance_wrong_pizza,0.5
+annoyance_order_expired,1.5
+hurry_up_threshold,3.5
+hurry_up_min_length,10000

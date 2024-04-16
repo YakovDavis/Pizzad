@@ -12,6 +12,14 @@ else if (game_score == 5)
 {
 	sprite_index = spr_achv_5;
 }
+else if (game_score == 13)
+{
+	sprite_index = spr_achv_13;
+}
+else if (game_score == 69)
+{
+	sprite_index = spr_achv_69;
+}
 else if (game_score % 5 == 0)
 {
 	sprite_index = spr_achv_every5;

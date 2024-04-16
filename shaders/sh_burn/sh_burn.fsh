@@ -23,6 +23,6 @@ void main()
 	}
 	else
 	{
-		gl_FragColor = vec4(col.r, col.g, col.b, base_color.a);
+		gl_FragColor = vec4(col.r, col.g, col.b, base_color.a * v_vColour.a);
 	}
 }
