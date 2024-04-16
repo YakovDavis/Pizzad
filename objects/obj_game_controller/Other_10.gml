@@ -134,7 +134,7 @@ else
 	
 		instance_create_layer(0,0,"game_over",obj_game_over);
 		audio_play_sound(snd_game_over_2,0,false);
-		alarm_set(2,100);
+		alarm_set(2,150);
 	}
 }
 
