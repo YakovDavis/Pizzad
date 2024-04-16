@@ -1,5 +1,12 @@
 /// @description Insert description here
 
+game_score = 0;
+
+if (instance_exists(obj_game_controller))
+{
+	game_score = obj_game_controller.game_score;
+}
+
 if (game_score == 40)
 {
 	sprite_index = spr_achv_40;

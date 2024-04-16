@@ -29,7 +29,6 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"game_score","filters":[],"listItems":[],"multiselect":false,"name":"game_score","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"","%Name":"time_before_dissolve","filters":[],"listItems":[],"multiselect":false,"name":"time_before_dissolve","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
     {"$GMObjectProperty":"","%Name":"dissolve_time","filters":[],"listItems":[],"multiselect":false,"name":"dissolve_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2000","varType":0,},
   ],
