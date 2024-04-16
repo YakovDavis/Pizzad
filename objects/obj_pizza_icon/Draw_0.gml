@@ -72,8 +72,6 @@ else
 	
 	shader_set_uniform_f_array(base_uvs_uniform, sprite_get_uvs(spr_bar_outer, 0));
 	draw_sprite_ext(spr_bar_outer, 0, x, y + timer_offset_y, icon_scale, icon_scale, 0, c_white, icon_alpha * fade_in_alpha_multiplier);
-	shader_set_uniform_f_array(base_uvs_uniform, sprite_get_uvs(spr_bar_inner, 0));
-	draw_sprite_part_ext(spr_bar_inner, 0, 0, 0, sprite_get_width(spr_bar_inner) * timer_state, sprite_get_height(spr_bar_inner), x - sprite_get_xoffset(spr_bar_inner) / 2, y + timer_offset_y, icon_scale, icon_scale, c_white, fade_in_alpha_multiplier);
 	
 	shader_reset();
 }

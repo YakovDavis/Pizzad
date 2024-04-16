@@ -13,6 +13,8 @@ customer_number = 1;
 
 annoyance_meter = 0.0;
 
+game_score = 0;
+
 pizzas_pool_grid = load_csv("pizzas_pool.csv");
 difficulty_grid = load_csv("difficulty.csv");
 time_grid = load_csv("time.csv");

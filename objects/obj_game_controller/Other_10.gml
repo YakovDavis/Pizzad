@@ -91,6 +91,7 @@ for (var _i = 0; _i < array_length(order_queue); _i++)
 if (_success)
 {
 	show_debug_message("MATCH!");
+	game_score += 1;
 	audio_play_sound(snd_summoning,0,false,global.master_volume*global.sfx_volume);
 	
 	with (obj_oven)
@@ -115,7 +116,6 @@ if (_success)
 		obj_scroll.orders[_order_index].start_time = -1;
 		obj_scroll.orders[_order_index].stop_time = current_time;
 		obj_scroll.orders[_order_index].good_stop = true;
-		
 	}
 	alarm_set(1, 150);
 }

@@ -16,5 +16,6 @@ for (var _i = 0; _i < clamp(array_length(order_queue), 0, array_length(order_anc
 	_icon.need_fade_in = _order.icon_fade;
 	_icon.ind = _i;
 	_order.icon_fade = false;
-	_order.icon = _icon
+	_order.icon = _icon;
+	_order.timer = 1 - clamp((current_time - _order.timer_start) / order_timer_length, 0, 1);
 }

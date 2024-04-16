@@ -29,7 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"","%Name":"text_fade_in_time","filters":[],"listItems":[],"multiselect":false,"name":"text_fade_in_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3000","varType":0,},
-    {"$GMObjectProperty":"","%Name":"offset_x","filters":[],"listItems":[],"multiselect":false,"name":"offset_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"70","varType":0,},
+    {"$GMObjectProperty":"","%Name":"offset_x","filters":[],"listItems":[],"multiselect":false,"name":"offset_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"210","varType":0,},
     {"$GMObjectProperty":"","%Name":"offset_y","filters":[],"listItems":[],"multiselect":false,"name":"offset_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
     {"$GMObjectProperty":"","%Name":"distance_between","filters":[],"listItems":[],"multiselect":false,"name":"distance_between","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
   ],

@@ -66,6 +66,7 @@
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_zodiac","path":"fonts/fnt_zodiac/fnt_zodiac.yy",},},
+    {"id":{"name":"fnt_revolution","path":"fonts/fnt_revolution/fnt_revolution.yy",},},
     {"id":{"name":"menu_button","path":"objects/menu_button/menu_button.yy",},},
     {"id":{"name":"obj_abs_clickable","path":"objects/obj_abs_clickable/obj_abs_clickable.yy",},},
     {"id":{"name":"obj_button_cross","path":"objects/obj_button_cross/obj_button_cross.yy",},},
@@ -80,6 +81,7 @@
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_game_over","path":"objects/obj_game_over/obj_game_over.yy",},},
     {"id":{"name":"obj_ketchup","path":"objects/obj_ketchup/obj_ketchup.yy",},},
+    {"id":{"name":"obj_ledger","path":"objects/obj_ledger/obj_ledger.yy",},},
     {"id":{"name":"obj_master_volume_slider","path":"objects/obj_master_volume_slider/obj_master_volume_slider.yy",},},
     {"id":{"name":"obj_monster_anchor","path":"objects/obj_monster_anchor/obj_monster_anchor.yy",},},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
@@ -181,6 +183,7 @@
     {"id":{"name":"spr_invisible_sq","path":"sprites/spr_invisible_sq/spr_invisible_sq.yy",},},
     {"id":{"name":"spr_ketchup_trail","path":"sprites/spr_ketchup_trail/spr_ketchup_trail.yy",},},
     {"id":{"name":"spr_ketchup","path":"sprites/spr_ketchup/spr_ketchup.yy",},},
+    {"id":{"name":"spr_ledger","path":"sprites/spr_ledger/spr_ledger.yy",},},
     {"id":{"name":"spr_menu_bkg","path":"sprites/spr_menu_bkg/spr_menu_bkg.yy",},},
     {"id":{"name":"spr_menu_bubble","path":"sprites/spr_menu_bubble/spr_menu_bubble.yy",},},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},},
