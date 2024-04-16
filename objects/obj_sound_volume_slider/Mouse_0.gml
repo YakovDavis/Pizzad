@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-global.music_volume = slider_pos;
+global.sound_volume = slider_pos;
 with (obj_music_manager)
 {
 	event_user(0);

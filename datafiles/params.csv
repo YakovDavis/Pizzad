@@ -1,5 +1,5 @@
 ParamName,Value
-order_timer_length,60000
+order_timer_length,45000
 annoyance_down_speed,0.0005
 annoyance_overflow_speed,0
 annoyance_wrong_pizza,0.5
