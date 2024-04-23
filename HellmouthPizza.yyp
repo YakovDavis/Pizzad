@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Pizzad",
+  "%Name":"HellmouthPizza",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -63,7 +63,7 @@
   "MetaData":{
     "IDEVersion":"2024.2.0.132",
   },
-  "name":"Pizzad",
+  "name":"HellmouthPizza",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_revolution","path":"fonts/fnt_revolution/fnt_revolution.yy",},},
@@ -110,6 +110,7 @@
     {"id":{"name":"scr_topping_utils","path":"scripts/scr_topping_utils/scr_topping_utils.yy",},},
     {"id":{"name":"sh_blur","path":"shaders/sh_blur/sh_blur.yy",},},
     {"id":{"name":"sh_burn","path":"shaders/sh_burn/sh_burn.yy",},},
+    {"id":{"name":"sh_ketchup","path":"shaders/sh_ketchup/sh_ketchup.yy",},},
     {"id":{"name":"snd_button_pressed","path":"sounds/snd_button_pressed/snd_button_pressed.yy",},},
     {"id":{"name":"snd_game_over_2","path":"sounds/snd_game_over_2/snd_game_over_2.yy",},},
     {"id":{"name":"snd_game_over_3","path":"sounds/snd_game_over_3/snd_game_over_3.yy",},},
@@ -137,6 +138,7 @@
     {"id":{"name":"spr_achv_20","path":"sprites/spr_achv_20/spr_achv_20.yy",},},
     {"id":{"name":"spr_achv_40","path":"sprites/spr_achv_40/spr_achv_40.yy",},},
     {"id":{"name":"spr_achv_5","path":"sprites/spr_achv_5/spr_achv_5.yy",},},
+    {"id":{"name":"spr_achv_69","path":"sprites/spr_achv_69/spr_achv_69.yy",},},
     {"id":{"name":"spr_achv_every5","path":"sprites/spr_achv_every5/spr_achv_every5.yy",},},
     {"id":{"name":"spr_bar_inner","path":"sprites/spr_bar_inner/spr_bar_inner.yy",},},
     {"id":{"name":"spr_bar_outer","path":"sprites/spr_bar_outer/spr_bar_outer.yy",},},
@@ -224,7 +226,6 @@
     {"id":{"name":"spr_top_tomatoes","path":"sprites/spr_top_tomatoes/spr_top_tomatoes.yy",},},
     {"id":{"name":"spr_topping_box","path":"sprites/spr_topping_box/spr_topping_box.yy",},},
     {"id":{"name":"spr_topping_container","path":"sprites/spr_topping_container/spr_topping_container.yy",},},
-    {"id":{"name":"spr_achv_69","path":"sprites/spr_achv_69/spr_achv_69.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

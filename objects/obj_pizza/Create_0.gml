@@ -41,3 +41,6 @@ with (obj_pizza_point)
 	initial_pizza_y = obj_pizza.y;
 }
 
+strip_length_uniform = shader_get_uniform(sh_ketchup, "stripLength");
+sprite_size_uniform = shader_get_uniform(sh_ketchup, "spriteSize");
+base_uvs_uniform = shader_get_uniform(sh_ketchup, "baseUvs");
